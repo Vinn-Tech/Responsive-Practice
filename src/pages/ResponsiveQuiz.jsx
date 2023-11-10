@@ -3,7 +3,7 @@ import React from "react";
 const ResponsiveQuiz = () => {
   return (
     <>
-      <div className="parents flex-col w-full h-[100vh] py-1 px-2 text-[1.5rem]">
+      <div className="parents flex-col w-full h-[100vh] py-1 px-2 text-[1.5rem] overflow-y-hidden">
         <div className="kotak-merah-large md:w-[100%] md:text-white md:flex md:mb-2 sm:mb-2 lg:w-[100%] lg:text-white bg-red-600 text-center text-white h-[5rem] flex justify-center items-center sm:float-right sm:w-[30%] sm:text-red-600">
           Merah
         </div>
@@ -40,7 +40,7 @@ const ResponsiveQuiz = () => {
               <div className="bg-pink-600 h-[100%] w-[50%] md:flex sm:hidden flex justify-center items-center text-white">
                 Pink
               </div>
-              <div className="bg-sky-400 h-[100%] w-[50%] md:hidden sm:flex flex justify-center items-center text-white">
+              <div className="bg-blue-500 h-[100%] w-[50%] md:hidden sm:flex flex justify-center items-center text-white">
                 Biru Muda
               </div>
             </div>
